@@ -1,0 +1,79 @@
+:root {
+    /* theme colors */
+  
+    --color-primary: #950a2b;
+    --color-primary-shade: #860926;
+    --color-primary-tint: #9f2240;
+  
+    --color-secondary: #0a9574;
+    --color-secondary-shade: #098668;
+    --color-secondary-tint: #0a9574;
+    
+  
+    --color-tertiary: #740a95;
+    --color-tertiary-shade: #680986;
+    --color-tertiary-tint: #ab6cbf;
+  
+    --color-success: #2dd36f;
+    --color-success-shade: #28ba62;
+    --color-success-tint: #42d77d;
+  
+    --color-warning: #ffc409;
+    --color-warning-shade: #e0ac08;
+    --color-warning-tint: #ffca22;
+  
+    --color-danger: #eb445a;
+    --color-danger-shade: #cf3c4f;
+    --color-danger-tint: #ed576b;
+  
+    --color-dark: #222428;
+    --color-dark-shade: #1e2023;
+    --color-dark-tint: #383a3e;
+  
+    --color-medium: #92949c;
+    --color-medium-shade: #808289;
+    --color-medium-tint: #9d9fa6;
+  
+    --color-light: #f4f5f8;
+    --color-light-shade: #d7d8da;
+    --color-light-tint: #f5f6f9;
+
+    --color-green: #236927;
+    --color-green-shade-1: #1f5a22;
+    --color-green-shade-2: #18471b;
+
+    --color-blue: #4267B2;
+    --color-blue-shade-1: #33518d;
+    --color-blue-shade-2: #1d3057;
+    
+    /* fonts */
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  
+    /* shadows */
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    --box-shadow-1: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    --box-shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    --box-shadow-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    --box-shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    --box-shadow-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  
+    /* backgrounds */
+    --bg-main: #f5f3f3;
+    --bg-secondary: #eeacca;
+  
+    /* border radius */
+    --border-radius-btn: 2px;
+    --border-radius-card: 5px;
+    --border-radius-round: 25px;
+    /* text */
+    --text-primary: rgba(201, 180, 180, 0.87);
+    --text-secondary: rgba(0, 0, 0, 0.54);
+    --text-hint: rgba(0, 0, 0, 0.38);
+    --text-white: #fff;
+    --text-light: rgba(255, 255, 255, 0.7);
+    --text-hint-light: rgba(255, 255, 255, 0.5);
+    /* btn */
+    --btn-disabled: rgb(206, 203, 203);
+}
