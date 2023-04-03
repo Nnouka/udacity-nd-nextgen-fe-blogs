@@ -39,7 +39,8 @@
 .nav-item:hover .link {
     background-color: var(--color-primary-background);
 }
-.nav-item:hover .link {
+.nav-item:hover .link,
+.nav-item.active .link {
     color: var(--color-primary);
 }
 
@@ -142,6 +143,35 @@
 .app-footer .copyright {
     position: absolute;
     bottom: 2px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.card-media {
+    width: 300px;
+    height: 200px;
+}
+.blogs-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.media-caption,
+.media-author {
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+.blog-image {
+    max-height: 200px;
+    object-position: center;
 }
 
 @media (min-width: 680px) {

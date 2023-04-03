@@ -6,11 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/images/favicon.ico" />
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <title>Udacity Front End: Personal Blog posts</title>
+    <title>Udacity Front End: Personal Blog posts > Sports</title>
 </head>
 <body>
-    <div class="root">
-        <h1>Personal Blog posts</h1>
+    <div class="post-layout">
+        <header class="app-header">
+            <section class="nav-bar">
+                <div class="nav-bar-brand">
+                    <a href="../index.html" class="link">
+                        <img src="../assets/images/logo.png" alt="" class="cover-image">
+                    </a>
+                </div>
+                <div class="hamburger-menu">
+                    <button class="control btn hamburger-menu-trigger">
+                        <span class="hamburger-bar"></span>
+                        <span class="hamburger-bar"></span>
+                        <span class="hamburger-bar"></span>
+                        <ul class="list-group nav-dropdown">
+                            <li class="list-item nav-item"><a href="../index.html" class="link nav-link">Home</a></li>
+                            <li class="list-item nav-item"><a href="../../blogs/music.html" class="link nav-link">Music</a></li>
+                            <li class="list-item nav-item active"><a href="../../blogs/sports.html" class="link nav-link">Sports</a></li>
+                        </ul>
+                    </button>
+                </div>
+                <nav>
+                    <ul class="list-group nav-bar-nav">
+                        <li class="list-item nav-item"><a href="../index.html" class="link nav-link">Home</a></li>
+                        <li class="list-item nav-item"><a href="../../blogs/music.html" class="link nav-link">Music</a></li>
+                        <li class="list-item nav-item active"><a href="../../blogs/sports.html" class="link nav-link">Sports</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <article class="post-article app-content">
+            <h1 class="page-title">All Sports Category</h1>
+            <section class="main">
+                <asside class="image-wrapper">
+                    <figure>
+                        <img src="../assets/images/posts/sports/sportsballs.jpeg" alt="Sports ball" class="cover-image blog-image">
+                        <figcaption>Sports is Energy</figcaption>
+                    </figure>
+                </asside>
+                <section class="blogs-content">
+                    <div class="card">
+                        <div class="card-media">
+                            <a href="../posts/sports/football.html" class="link">
+                                <img src="../assets/images/posts/sports/female-Sports-Category-Football.jpeg" alt="Women in football" class="cover-image post-image">
+                                 <div class="media-caption">Women in footbal</div>
+                            </a>
+                            <section class="media-author">
+                                <div class="avatar">
+                                    <img src="../assets/images/logo.png" alt="author" class="cover-image">
+                                </div>
+                                <div class="bio">
+                                    <div class="bio-name">Nnouka Stephen</div>
+                                    <div class="bio-description">Someone with passion for Football</div>
+                                    <div class="last-update">Last update: 03/04/2023</div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-media">
+                            <a href="../posts/sports/basketball.html" class="link">
+                                <img src="../assets/images/posts/sports/male-basketball.jpeg" alt="Basketball" class="cover-image post-image">
+                                 <div class="media-caption">Basketball knockouts</div>
+                            </a>
+                            <section class="media-author">
+                                <div class="avatar">
+                                    <img src="../assets/images/logo.png" alt="author" class="cover-image">
+                                </div>
+                                <div class="bio">
+                                    <div class="bio-name">Nnouka Stephen</div>
+                                    <div class="bio-description">Someone with passion for basketball</div>
+                                    <div class="last-update">Last update: 03/04/2023</div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </article>
+        <footer class="app-footer">
+            <p class="copyright">
+                © Copyright 2023
+            </p>
+        </footer>
     </div>
 </body>
 </html>
