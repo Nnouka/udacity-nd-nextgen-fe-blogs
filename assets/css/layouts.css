@@ -1,0 +1,24 @@
+.post-layout {
+    display: grid;
+    grid-template-rows: [header] 50px [body] auto [footer] 100px [ending];
+}
+@media (min-width: 680px) {
+    .post-layout {
+        display: grid;
+        grid-template-columns: [left_line] 15% [mid_line] auto [right_line] 15% [end_line];
+    }
+    .app-header {
+        grid-area: header / left_line / body / end_line;
+        display: grid;
+        grid-template-columns: [left_line] 15% [mid_line] auto [right_line] 15% [end_line];
+    }
+    .app-content {
+        grid-area: body / mid_line / footer / right_line;
+    }
+    .app-footer {
+        grid-area: footer / left_line / ending / end_line;
+    }
+    .nav-bar {
+        grid-area: header / mid_line / body / right_line;
+    }
+}

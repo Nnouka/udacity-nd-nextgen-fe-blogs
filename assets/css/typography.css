@@ -1,0 +1,17 @@
+.page-title {
+    color: var(--color-primary);
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center !important;
+}
+.title-text {
+    color: var(--color-tertiary-shade);
+}
+
+@media (min-width: 680px) {
+    .page-title {
+        margin-left: 0;
+    }
+}
