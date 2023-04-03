@@ -9,6 +9,9 @@
 .title-text {
     color: var(--color-tertiary-shade);
 }
+.underscore {
+    text-decoration: underline;
+}
 
 @media (min-width: 680px) {
     .page-title {
